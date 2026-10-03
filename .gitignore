@@ -1,0 +1,43 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+.idea/
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.tmp
+*.user
+*.userprefs
+*.log
+
+# Build/package output
+Build/*
+!Build/Windows/
+!Build/Windows/**
+StagedBuilds/
+Packaging/
+
+# Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Crash/debug files
+*.dmp
+*.pdb
+
+# Keep project source/config/content tracked
+!Config/
+!Content/
+!Plugins/
+!Source/
